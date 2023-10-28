@@ -1,0 +1,21 @@
+body {background-color: #dd9191;color: #1b1d1f;}
+h1, h2, h3 {color: #ed0000;}
+a:link {
+    color: #2d00e0;
+    text-decoration-color: #cd0ede;
+  }
+ nav {background-color: #b9b5c8; padding: 10px; margin-bottom: 30px}
+ nav a {color: #cd0ede;}
+ nav a:hover {background-color: #ff6c6c;}
+.myphoto {float: right; margin: 20px;}
+.row, .row2 {display: flex; margin: 30px; background-color: #cce5ff; border-radius: 2em; margin-bottom: 40px;}
+.row {padding-left: 1em;}
+.emailonly, .linkedinlink, .iframe1, .form1 {margin: 40px; padding-left: 1em;}
+.quote {float: right;}
+h1 {text-align: center;}
+.bigdiv {display: flex;}
+.div1 {flex-basis: 75%; justify-content: space-between 10%}
+.div2 {flex-basis: 25%;}
+aside {background-color: #ff6c6c; padding-left: 2em;border-radius: 2em; margin-bottom: 40px;}
+.flexbox1 {display: flex; margin-right: 30%;}
+.skill {display:inline-block;}
