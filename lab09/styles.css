@@ -14,8 +14,9 @@ a:link {
 .quote {float: right;}
 h1 {text-align: center;}
 .bigdiv {display: flex;}
-.div1 {flex-basis: 75%; justify-content: space-between 10%}
+.div1 {flex-basis: 75%; justify-content: space-between}
 .div2 {flex-basis: 25%;}
-aside {background-color: #ff6c6c; padding-left: 2em;border-radius: 2em; margin-bottom: 40px;}
+aside {background-color: #ff6c6c; padding-left: 2em;border-radius: 2em; margin-bottom: 40px; margin-top: 50px; padding-top: 30px; padding-bottom: 30px;}
 .flexbox1 {display: flex; margin-right: 30%;}
-.skill {display:inline-block;}
+.skill {display:inline-block; margin: 40px;}
+p {margin-top: 50px; margin-bottom: 30px;}
