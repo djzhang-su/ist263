@@ -8,7 +8,7 @@ a:link {
  nav a {color: #cd0ede;}
  nav a:hover {background-color: #ff6c6c;}
 .myphoto {float: right; margin: 20px; max-width: 100%;}
-.row, .row2 {display: flex; margin: 30px; background-color: #cce5ff; border-radius: 2em; margin-bottom: 40px;}
+.row, .row2 {display: flex; margin: 30px; background-color: #cce5ff; border-radius: 2em; margin-bottom: 40px; flex-wrap: wrap;}
 .row {padding-left: 1em;}
 .emailonly, .linkedinlink, .iframe1, .form1 {margin: 40px; padding-left: 1em;}
 .quote {float: right;}
@@ -20,3 +20,4 @@ aside {background-color: #ff6c6c; padding-left: 2em;border-radius: 2em; margin-b
 .flexbox1 {display: flex; margin-right: 30%;}
 .skill {display:inline-block; margin: 40px;}
 p {margin-top: 50px; margin-bottom: 30px;}
+@media only screen and (max-width: 800px) {a {flex-wrap: wrap; display: block; margin-bottom: 10px;} span {display: none;}}
