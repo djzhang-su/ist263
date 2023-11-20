@@ -28,6 +28,11 @@
   width: 800px; 
   margin-bottom: 10px; 
 }
+
+@media (max-width: 768px){
+    .guanyuimage {
+      max-width: 100%;
+    }}
 .banners {
     display: flex;
     justify-content: space-between;
