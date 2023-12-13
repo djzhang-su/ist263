@@ -7,6 +7,7 @@
       align-items: center;}
     nav a {margin: 5px 0;}
    }
+
 .banner {
     background-image: url("../images2/Shanghai_banner_Formula_1_results_2012.png");
     background-size: cover;
@@ -16,19 +17,21 @@
     flex-direction: column;
     text-align: center; 
   }
+
 .banner div {
     margin: 10px; }
-    .banner h1,
-.banner nav a {
+    .banner h1, .banner nav a {
   color: red;
   background-color: black;
   padding: 10px 20px;
   border-radius: 10px;
   display: inline-block;
 }
+
 .text123 {
     text-align: center;
 }
+
 .guanyuimage {
     display: flex;
     margin: 0 auto;
@@ -229,6 +232,7 @@
   background-image: url('../images2/nightshanghai.png');
   background-size: cover;
   background-position: center;
+  padding-top: 50px;
 }
 
 .ytvideos {
@@ -260,7 +264,6 @@
   }
 
   .video iframe {
-    width: 100%; 
     margin-bottom: 20px; 
   }
 }
