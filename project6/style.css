@@ -211,6 +211,7 @@
   flex-basis: 30%;
   margin: 0 10px;
   display: block;
+  padding: 30px;
 }
 
 .container img {
@@ -257,3 +258,12 @@
     margin-bottom: 20px; /* Add space between videos on mobile */
   }
 }
+
+.highlightcenter, .career {text-align: center;}
+.career {
+  max-width: 600px; /* Set a maximum width for better readability */
+  margin: 20px auto; /* Center paragraphs within the container */
+  text-align: left; /* Reset text alignment to left within centered container */
+}
+
+h4 {font-size: 25px;}
