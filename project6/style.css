@@ -188,5 +188,72 @@
     max-width: 100%;
   }
 
+/* end of first page css*/
 
 
+
+.shanghai-background {
+  max-width: 100%;
+  background-image: url('../images2/shanghai.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+  .container {display: block;}
+}
+.container .subcontainer {
+  flex-basis: 30%;
+  margin: 0 10px;
+  display: block;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.nightshanghai {max-width: 100%;}
+
+.night-background {
+  max-width: 100%;
+  background-image: url('../images2/nightshanghai.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.ytvideos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  max-width: 100%; /* Maximum width to fit within the container */
+  padding-bottom: 20px; /* Add space at the bottom for better display */
+}
+
+.video {
+  flex: 0 0 auto;
+}
+
+.video iframe {
+  max-width: 100%; /* Make sure the videos are responsive */
+  height: 500; /* Ensure aspect ratio preservation */
+  width: 500px; /* Set width for each video */
+  max-height: 400px; /* Set max height for each video */
+}
+
+@media screen and (max-width: 768px) {
+  .ytvideos {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .video {
+    flex: 0 0 100%; /* Each video takes full width on smaller screens */
+    margin-bottom: 20px; /* Add space between videos on mobile */
+  }
+}
