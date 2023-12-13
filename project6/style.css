@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
   .everything {font-family: 'Work Sans', sans-serif;}
 
+  @media screen and (max-width: 600px) {
+    nav {display: flex;
+      flex-direction: column;
+      align-items: center;}
+    nav a {margin: 5px 0;}
+   }
 .banner {
     background-image: url("../images2/Shanghai_banner_Formula_1_results_2012.png");
     background-size: cover;
