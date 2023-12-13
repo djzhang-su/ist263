@@ -86,7 +86,7 @@
     .article {max-width: 500px; }}
 
   @media screen and (max-width: 768px) {
-      .article img {height: 350px;}}
+      .article img {height: 300px;}}
   
     .article a {
     display: block;
@@ -100,7 +100,7 @@
   }
   
   .article h3 {
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   
