@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .zoom-effect {
+  overflow: hidden;
+}
+
+.zoom-effect img {
+  max-width: 100%;
+  transition: transform 0.5s ease-in-out; /* Increased transition time */
+}
+
+.zoom-effect:hover img {
+  transform: scale(1.2); /* Increased scale value for a larger zoom effect */
+}
+    </style>
+</head>
+<body>
+    <div class="zoom-effect">
+        <section>
+          <img src="../images2/carsingapore.jpg" alt="Car in Singapore">
+        </section>
+      </div>
+</body>
+</html>
