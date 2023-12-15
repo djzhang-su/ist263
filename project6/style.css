@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
   body {font-family: 'Work Sans', sans-serif;}
 
+a {text-decoration: none;}
   @media screen and (max-width: 600px) {
     nav {display: flex;
       flex-direction: column;
@@ -41,7 +42,7 @@
   margin-bottom: 10px; 
 }
 
-@media (max-width: 768px){
+@media (max-width: 600px){
     .guanyuimage {
       max-width: 100%;
     }}
@@ -68,7 +69,7 @@
     display: block; 
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 900px) {
     .banner1, .banner2 {display: none; }}
   
   .main-image {
@@ -102,19 +103,19 @@
     border: 2px solid orange;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 899px) {
     .main-image {display: none;}
     .mobile-image {display: block;}
   }
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 900px) {
     .mobile-image {display: none;}
     .main-image {display: block;}
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 600px) {
     .article {max-width: 500px; }}
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 600px) {
       .article img {height: 300px;}}
   
     .article a {
@@ -256,7 +257,7 @@
   max-height: 400px; 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .ytvideos {
     display: flex;
     flex-direction: column;
@@ -305,7 +306,7 @@ h4 {font-size: 25px;}
   margin: 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .logoimages1 {
     width: 50px;
     height: 50px;
@@ -352,7 +353,7 @@ h4 {font-size: 25px;}
   transform: scale(1.4); 
 }
 
-.Skip {
+.skip {
   background-color: #ffffff;
   padding: 5px;
   border: 1px solid #000000;
@@ -362,6 +363,6 @@ h4 {font-size: 25px;}
   left: -999px; 
 }
 
-.Skip:focus {left: 10px;
+.skip:focus {left: 10px;
 
 }
