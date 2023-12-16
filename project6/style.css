@@ -2,7 +2,7 @@
   body {font-family: 'Work Sans', sans-serif;}
 
 a {text-decoration: none;}
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 700px) {
     nav {display: flex;
       flex-direction: column;
       align-items: center;}
@@ -42,7 +42,7 @@ a {text-decoration: none;}
   margin-bottom: 10px; 
 }
 
-@media (max-width: 600px){
+@media (max-width: 700px){
     .guanyuimage {
       max-width: 100%;
     }}
@@ -84,7 +84,7 @@ a {text-decoration: none;}
   height: auto;
   margin: 20px auto;
 }
-  .article-list {
+  .articlelist {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -112,10 +112,10 @@ a {text-decoration: none;}
     .main-image {display: block;}
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 700px) {
     .article {max-width: 500px; }}
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 700px) {
       .article img {height: 300px;}}
   
     .article a {
@@ -257,7 +257,7 @@ a {text-decoration: none;}
   max-height: 400px; 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .ytvideos {
     display: flex;
     flex-direction: column;
@@ -271,7 +271,7 @@ a {text-decoration: none;}
 
 .highlightcenter, .career {text-align: center;}
 .career {
-  max-width: 600px;
+  max-width: 700px;
   margin: 1px auto;
   text-align: left;
 }
@@ -285,6 +285,7 @@ h4 {font-size: 25px;}
   width: 100%;
   padding: 5px;
   text-decoration: none;
+  padding-left: 20px;
 }
 
 .socialmedia {
@@ -306,7 +307,7 @@ h4 {font-size: 25px;}
   margin: 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .logoimages1 {
     width: 50px;
     height: 50px;
@@ -363,6 +364,31 @@ h4 {font-size: 25px;}
   left: -999px; 
 }
 
-.skip:focus {left: 10px;
+.skip:focus {
+  left: 10px;
+}
 
+/* end of 2nd page css*/ 
+
+.thirdbackground {
+    max-width: 100%;
+    background-image: url('../images2/italylivery.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+    width: 50%;
+    padding-bottom: 40px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
 }
