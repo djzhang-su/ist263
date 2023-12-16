@@ -98,7 +98,7 @@ a {text-decoration: none;}
   }
   .article {
     width: 100%;
-    max-width: 300px;
+    max-width: 25%;
     margin-bottom: 20px;
     border: 2px solid orange;
   }
@@ -125,6 +125,7 @@ a {text-decoration: none;}
   }
   
   .article img {
+    max-width: 100%;
     width: 100%;
     display: block;
   }
@@ -385,6 +386,7 @@ h4 {font-size: 25px;}
     margin: 0 auto;
     width: 50%;
     padding-bottom: 40px;
+    max-width: 100%;
 }
 
 th, td {
@@ -410,3 +412,9 @@ th, td {
     padding-top: 50px;
     padding-bottom: 40px;
 }
+
+body {
+  overflow-x: hidden;
+  }
+  
+  img {max-width: 100%; height: auto;}
